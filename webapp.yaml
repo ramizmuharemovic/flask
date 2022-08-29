@@ -14,7 +14,7 @@ spec:
       containers:
         - name: webapp
           imagePullPolicy: Never
-          image: korisnik/vjezba:v5
+          image: korisnik/vjezba:v10
           ports:
             - containerPort: 8080
   replicas: 2
